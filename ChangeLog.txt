@@ -1,0 +1,14 @@
+1.1.2 (2016-08-04):
+- Added LiveSplit update support
+- Slightly tweaked the UI
+
+1.1.1 (2016-08-03):
+- Added "Seed Satchel" split
+
+1.1.0 (2016-08-03):
+- Added "Lava Juice" split
+
+1.0.0 (2016-08-02):
+- Created autosplitter for Oracle of Ages with common splits and many extras
+- Implemented auto start and auto reset
+- Found method of checking game version, though currently unused
