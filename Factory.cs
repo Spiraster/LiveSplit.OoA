@@ -16,8 +16,8 @@ namespace LiveSplit.OoA
         public ComponentCategory Category => ComponentCategory.Control;
 
         public string UpdateName => ComponentName;
-        public string XMLURL => "https://raw.githubusercontent.com/Spiraster/LiveSplit.OoA/master/";
-        public string UpdateURL => "Components/update.LiveSplit.OoA.xml";
+        public string UpdateURL => "https://raw.githubusercontent.com/Spiraster/LiveSplit.OoA/master/";
+        public string XMLURL => UpdateURL + "Components/update.LiveSplit.OoA.xml";
 
         public IComponent Create(LiveSplitState state)
         {
