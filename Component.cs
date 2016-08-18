@@ -100,7 +100,7 @@ namespace LiveSplit.OoA
                 else if (process.MainModule.ModuleMemorySize == 5656576)
                     memory.emulator = Emulator.gambatte571;
                 
-                memory.setOffsets();
+                memory.setPointers();
 
                 return process;
             }
@@ -110,6 +110,12 @@ namespace LiveSplit.OoA
 
         void timer_OnStart(object sender, EventArgs e)
         {
+            if (game != null && !game.HasExited)
+            {
+                //memory.getVersion(game);
+                memory.setSplits(settings);
+            }
+
             if (AllowFS)
             {
                 if (settings.AutoSelectFile) //auto file select

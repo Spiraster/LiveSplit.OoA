@@ -1,11 +1,53 @@
 <updates>
+  <update version="2.0.0">
+    <files>
+      <file path="Components/LiveSplit.OoA.dll" status="changed" />
+    </files>
+    <changelog>
+      <change>
+        Overhauled settings implementation (2.0.0)
+      </change>
+      <change>
+        Added "Veran Warp" split condition (2.0.0)
+      </change>
+      <change>
+        Fixed "Save Nayru" split condition (2.0.0)
+      </change>
+      <change>
+        Fixed "Defeat Veran" split condition (2.0.0)
+      </change>
+    </changelog>
+  </update>
   <update version="1.1.2">
     <files>
       <file path="Components/LiveSplit.OoA.dll" status="changed" />
     </files>
     <changelog>
       <change>
-        Inital upload to GitHub.
+        Added LiveSplit update support (1.1.2)
+      </change>
+      <change>
+        Slightly tweaked UI (1.1.2)
+      </change>
+    </changelog>
+  </update>
+  <update version="1.1.1">
+    <files>
+      <file path="Components/LiveSplit.OoA.dll" status="changed" />
+    </files>
+    <changelog>
+      <change>
+        Added "Seed Satchel" split condition (1.1.1)
+      </change>
+    </changelog>
+  </update>
+  <update version="1.1.0">
+    <files>
+      <file path="Components/LiveSplit.OoA.dll" status="changed" />
+    </files>
+    <changelog>
+      <change>
+        Added "Lava Juice" split condition (1.1.0)
       </change>
     </changelog>
   </update>
