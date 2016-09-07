@@ -57,7 +57,7 @@ namespace LiveSplit.OoA
             new Info("ED3", "D3Enter", 0x10),
             new Info("ED4", "D4Enter", 0x10),
             new Info("ED5", "D5Enter", 0x10),
-            new Info("ED6", "D6Enter", 0x12),
+            new Info("ED6", "D6Enter", 0x10),
             
             //essences
             new Info("D1", "D1Ess", 0x30),

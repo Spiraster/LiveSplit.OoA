@@ -64,7 +64,7 @@ namespace LiveSplit.OoA
 
                 if (state.CurrentPhase == TimerPhase.Running)
                 {
-                    if (memory.doSplit(state.CurrentSplit.Name.ToLower(), game, settings))
+                    if (memory.doSplit(game))
                         model.Split();
                 }
             }

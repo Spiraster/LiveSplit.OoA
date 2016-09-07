@@ -71,7 +71,7 @@ namespace LiveSplit.OoA
             return false;
         }
 
-        public bool doSplit(string segment, Process game, OoASettings settings)
+        public bool doSplit(Process game)
         {
             data.UpdateAll(game);
 

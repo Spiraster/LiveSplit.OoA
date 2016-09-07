@@ -90,7 +90,7 @@
             System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Crescent Island (Shipwreck)");
             System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Great Moblin");
             System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Save Nayru");
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Veran Warp");
+            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Enter Veran Fight");
             System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Defeat Veran");
             System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Others", new System.Windows.Forms.TreeNode[] {
             treeNode32,
@@ -244,7 +244,7 @@
             treeNode35.Name = "node_Nayru";
             treeNode35.Text = "Save Nayru";
             treeNode36.Name = "node_EVeran";
-            treeNode36.Text = "Veran Warp";
+            treeNode36.Text = "Enter Veran Fight";
             treeNode37.Name = "node_Veran";
             treeNode37.Text = "Defeat Veran";
             treeNode38.Name = "Node4";
