@@ -28,83 +28,84 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Spirit\'s Grave (D1)");
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Wing Dungeon (D2)");
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Moonlit Grotto (D3)");
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Skull Dungeon (D4)");
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Crown Dungeon (D5)");
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Mermaid\'s Cave (D6)");
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Dungeon Entrances", new System.Windows.Forms.TreeNode[] {
-            treeNode1,
-            treeNode2,
-            treeNode3,
-            treeNode4,
-            treeNode5,
-            treeNode6});
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Eternal Spirit (D1)");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Ancient Wood (D2)");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Echoing Howl (D3)");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Bereft Peak (D6)");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Essences", new System.Windows.Forms.TreeNode[] {
-            treeNode8,
-            treeNode9,
-            treeNode10,
-            treeNode11});
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("L1 Sword");
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Seed Satchel");
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Feather");
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Seed Shooter");
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Switch Hook");
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Cane of Somaria");
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Flute (Ricky)");
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Flute (Dimitri)");
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Flute (Moosh)");
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Harp of Ages");
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Tune of Currents");
-            System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Items", new System.Windows.Forms.TreeNode[] {
-            treeNode13,
-            treeNode14,
-            treeNode15,
-            treeNode16,
-            treeNode17,
-            treeNode18,
-            treeNode19,
-            treeNode20,
-            treeNode21,
-            treeNode22,
-            treeNode23});
-            System.Windows.Forms.TreeNode treeNode25 = new System.Windows.Forms.TreeNode("Rope");
-            System.Windows.Forms.TreeNode treeNode26 = new System.Windows.Forms.TreeNode("Chart");
-            System.Windows.Forms.TreeNode treeNode27 = new System.Windows.Forms.TreeNode("Tuni Nut");
-            System.Windows.Forms.TreeNode treeNode28 = new System.Windows.Forms.TreeNode("Lava Juice");
-            System.Windows.Forms.TreeNode treeNode29 = new System.Windows.Forms.TreeNode("Mermaid Suit");
-            System.Windows.Forms.TreeNode treeNode30 = new System.Windows.Forms.TreeNode("D6 Boss Key");
-            System.Windows.Forms.TreeNode treeNode31 = new System.Windows.Forms.TreeNode("Key Items", new System.Windows.Forms.TreeNode[] {
-            treeNode25,
-            treeNode26,
-            treeNode27,
-            treeNode28,
-            treeNode29,
-            treeNode30});
-            System.Windows.Forms.TreeNode treeNode32 = new System.Windows.Forms.TreeNode("D2 Skip");
-            System.Windows.Forms.TreeNode treeNode33 = new System.Windows.Forms.TreeNode("Crescent Island (Shipwreck)");
-            System.Windows.Forms.TreeNode treeNode34 = new System.Windows.Forms.TreeNode("Great Moblin");
-            System.Windows.Forms.TreeNode treeNode35 = new System.Windows.Forms.TreeNode("Save Nayru");
-            System.Windows.Forms.TreeNode treeNode36 = new System.Windows.Forms.TreeNode("Enter Veran Fight");
-            System.Windows.Forms.TreeNode treeNode37 = new System.Windows.Forms.TreeNode("Defeat Veran");
-            System.Windows.Forms.TreeNode treeNode38 = new System.Windows.Forms.TreeNode("Others", new System.Windows.Forms.TreeNode[] {
-            treeNode32,
-            treeNode33,
-            treeNode34,
-            treeNode35,
-            treeNode36,
-            treeNode37});
+            System.Windows.Forms.TreeNode treeNode77 = new System.Windows.Forms.TreeNode("Spirit\'s Grave (D1)");
+            System.Windows.Forms.TreeNode treeNode78 = new System.Windows.Forms.TreeNode("Wing Dungeon (D2)");
+            System.Windows.Forms.TreeNode treeNode79 = new System.Windows.Forms.TreeNode("Moonlit Grotto (D3)");
+            System.Windows.Forms.TreeNode treeNode80 = new System.Windows.Forms.TreeNode("Skull Dungeon (D4)");
+            System.Windows.Forms.TreeNode treeNode81 = new System.Windows.Forms.TreeNode("Crown Dungeon (D5)");
+            System.Windows.Forms.TreeNode treeNode82 = new System.Windows.Forms.TreeNode("Mermaid\'s Cave (D6)");
+            System.Windows.Forms.TreeNode treeNode83 = new System.Windows.Forms.TreeNode("Dungeon Entrances", new System.Windows.Forms.TreeNode[] {
+            treeNode77,
+            treeNode78,
+            treeNode79,
+            treeNode80,
+            treeNode81,
+            treeNode82});
+            System.Windows.Forms.TreeNode treeNode84 = new System.Windows.Forms.TreeNode("Eternal Spirit (D1)");
+            System.Windows.Forms.TreeNode treeNode85 = new System.Windows.Forms.TreeNode("Ancient Wood (D2)");
+            System.Windows.Forms.TreeNode treeNode86 = new System.Windows.Forms.TreeNode("Echoing Howl (D3)");
+            System.Windows.Forms.TreeNode treeNode87 = new System.Windows.Forms.TreeNode("Bereft Peak (D6)");
+            System.Windows.Forms.TreeNode treeNode88 = new System.Windows.Forms.TreeNode("Essences", new System.Windows.Forms.TreeNode[] {
+            treeNode84,
+            treeNode85,
+            treeNode86,
+            treeNode87});
+            System.Windows.Forms.TreeNode treeNode89 = new System.Windows.Forms.TreeNode("L1 Sword");
+            System.Windows.Forms.TreeNode treeNode90 = new System.Windows.Forms.TreeNode("Seed Satchel");
+            System.Windows.Forms.TreeNode treeNode91 = new System.Windows.Forms.TreeNode("Feather");
+            System.Windows.Forms.TreeNode treeNode92 = new System.Windows.Forms.TreeNode("Seed Shooter");
+            System.Windows.Forms.TreeNode treeNode93 = new System.Windows.Forms.TreeNode("Switch Hook");
+            System.Windows.Forms.TreeNode treeNode94 = new System.Windows.Forms.TreeNode("Cane of Somaria");
+            System.Windows.Forms.TreeNode treeNode95 = new System.Windows.Forms.TreeNode("Flute (Ricky)");
+            System.Windows.Forms.TreeNode treeNode96 = new System.Windows.Forms.TreeNode("Flute (Dimitri)");
+            System.Windows.Forms.TreeNode treeNode97 = new System.Windows.Forms.TreeNode("Flute (Moosh)");
+            System.Windows.Forms.TreeNode treeNode98 = new System.Windows.Forms.TreeNode("Harp of Ages");
+            System.Windows.Forms.TreeNode treeNode99 = new System.Windows.Forms.TreeNode("Tune of Currents");
+            System.Windows.Forms.TreeNode treeNode100 = new System.Windows.Forms.TreeNode("Items", new System.Windows.Forms.TreeNode[] {
+            treeNode89,
+            treeNode90,
+            treeNode91,
+            treeNode92,
+            treeNode93,
+            treeNode94,
+            treeNode95,
+            treeNode96,
+            treeNode97,
+            treeNode98,
+            treeNode99});
+            System.Windows.Forms.TreeNode treeNode101 = new System.Windows.Forms.TreeNode("Rope");
+            System.Windows.Forms.TreeNode treeNode102 = new System.Windows.Forms.TreeNode("Chart");
+            System.Windows.Forms.TreeNode treeNode103 = new System.Windows.Forms.TreeNode("Tuni Nut");
+            System.Windows.Forms.TreeNode treeNode104 = new System.Windows.Forms.TreeNode("Lava Juice");
+            System.Windows.Forms.TreeNode treeNode105 = new System.Windows.Forms.TreeNode("Mermaid Suit");
+            System.Windows.Forms.TreeNode treeNode106 = new System.Windows.Forms.TreeNode("D6 Boss Key");
+            System.Windows.Forms.TreeNode treeNode107 = new System.Windows.Forms.TreeNode("Key Items", new System.Windows.Forms.TreeNode[] {
+            treeNode101,
+            treeNode102,
+            treeNode103,
+            treeNode104,
+            treeNode105,
+            treeNode106});
+            System.Windows.Forms.TreeNode treeNode108 = new System.Windows.Forms.TreeNode("D2 Skip");
+            System.Windows.Forms.TreeNode treeNode109 = new System.Windows.Forms.TreeNode("Crescent Island (Shipwreck)");
+            System.Windows.Forms.TreeNode treeNode110 = new System.Windows.Forms.TreeNode("Great Moblin");
+            System.Windows.Forms.TreeNode treeNode111 = new System.Windows.Forms.TreeNode("Save Nayru");
+            System.Windows.Forms.TreeNode treeNode112 = new System.Windows.Forms.TreeNode("Enter Veran Fight");
+            System.Windows.Forms.TreeNode treeNode113 = new System.Windows.Forms.TreeNode("Defeat Veran");
+            System.Windows.Forms.TreeNode treeNode114 = new System.Windows.Forms.TreeNode("Others", new System.Windows.Forms.TreeNode[] {
+            treeNode108,
+            treeNode109,
+            treeNode110,
+            treeNode111,
+            treeNode112,
+            treeNode113});
             this.chkStartTimer = new System.Windows.Forms.CheckBox();
             this.chkSelectFile = new System.Windows.Forms.CheckBox();
             this.chkAutoReset = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.treeView1 = new LiveSplit.OoA.NewTreeView();
+            this.lblVersion = new System.Windows.Forms.Label();
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -152,7 +153,7 @@
             this.groupBox2.Controls.Add(this.chkAutoReset);
             this.groupBox2.Location = new System.Drawing.Point(10, 380);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(455, 88);
+            this.groupBox2.Size = new System.Drawing.Size(464, 88);
             this.groupBox2.TabIndex = 19;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Options";
@@ -162,7 +163,7 @@
             this.groupBox1.Controls.Add(this.treeView1);
             this.groupBox1.Location = new System.Drawing.Point(10, 10);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(455, 364);
+            this.groupBox1.Size = new System.Drawing.Size(464, 364);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Select the splits you would like the autosplitter to split for:";
@@ -173,105 +174,117 @@
             this.treeView1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.treeView1.Location = new System.Drawing.Point(3, 16);
             this.treeView1.Name = "treeView1";
-            treeNode1.Name = "node_ED1";
-            treeNode1.Text = "Spirit\'s Grave (D1)";
-            treeNode2.Name = "node_ED2";
-            treeNode2.Text = "Wing Dungeon (D2)";
-            treeNode3.Name = "node_ED3";
-            treeNode3.Text = "Moonlit Grotto (D3)";
-            treeNode4.Name = "node_ED4";
-            treeNode4.Text = "Skull Dungeon (D4)";
-            treeNode5.Name = "node_ED5";
-            treeNode5.Text = "Crown Dungeon (D5)";
-            treeNode6.Name = "node_ED6";
-            treeNode6.Text = "Mermaid\'s Cave (D6)";
-            treeNode7.Name = "Node0";
-            treeNode7.Text = "Dungeon Entrances";
-            treeNode8.Name = "node_D1";
-            treeNode8.Text = "Eternal Spirit (D1)";
-            treeNode9.Name = "node_D2";
-            treeNode9.Text = "Ancient Wood (D2)";
-            treeNode10.Name = "node_D3";
-            treeNode10.Text = "Echoing Howl (D3)";
-            treeNode11.Name = "node_D6";
-            treeNode11.Text = "Bereft Peak (D6)";
-            treeNode12.Name = "Node1";
-            treeNode12.Text = "Essences";
-            treeNode13.Name = "node_L1Sword";
-            treeNode13.Text = "L1 Sword";
-            treeNode14.Name = "node_D0T";
-            treeNode14.Text = "Seed Satchel";
-            treeNode15.Name = "node_D2T";
-            treeNode15.Text = "Feather";
-            treeNode16.Name = "node_D3T";
-            treeNode16.Text = "Seed Shooter";
-            treeNode17.Name = "node_D4T";
-            treeNode17.Text = "Switch Hook";
-            treeNode18.Name = "node_D5T";
-            treeNode18.Text = "Cane of Somaria";
-            treeNode19.Name = "node_FluteR";
-            treeNode19.Text = "Flute (Ricky)";
-            treeNode20.Name = "node_FluteD";
-            treeNode20.Text = "Flute (Dimitri)";
-            treeNode21.Name = "node_FluteM";
-            treeNode21.Text = "Flute (Moosh)";
-            treeNode22.Name = "node_Harp1";
-            treeNode22.Text = "Harp of Ages";
-            treeNode23.Name = "node_Harp2";
-            treeNode23.Text = "Tune of Currents";
-            treeNode24.Name = "Node2";
-            treeNode24.Text = "Items";
-            treeNode25.Name = "node_Rope";
-            treeNode25.Text = "Rope";
-            treeNode26.Name = "node_Chart";
-            treeNode26.Text = "Chart";
-            treeNode27.Name = "node_TN";
-            treeNode27.Text = "Tuni Nut";
-            treeNode28.Name = "node_LJ";
-            treeNode28.Text = "Lava Juice";
-            treeNode29.Name = "node_D6T";
-            treeNode29.Text = "Mermaid Suit";
-            treeNode30.Name = "node_D6BK";
-            treeNode30.Text = "D6 Boss Key";
-            treeNode31.Name = "Node3";
-            treeNode31.Text = "Key Items";
-            treeNode32.Name = "node_D2Skip";
-            treeNode32.Text = "D2 Skip";
-            treeNode33.Name = "node_CI";
-            treeNode33.Text = "Crescent Island (Shipwreck)";
-            treeNode34.Name = "node_Moblin";
-            treeNode34.Text = "Great Moblin";
-            treeNode35.Name = "node_Nayru";
-            treeNode35.Text = "Save Nayru";
-            treeNode36.Name = "node_EVeran";
-            treeNode36.Text = "Enter Veran Fight";
-            treeNode37.Name = "node_Veran";
-            treeNode37.Text = "Defeat Veran";
-            treeNode38.Name = "Node4";
-            treeNode38.Text = "Others";
+            treeNode77.Name = "node_ED1";
+            treeNode77.Text = "Spirit\'s Grave (D1)";
+            treeNode78.Name = "node_ED2";
+            treeNode78.Text = "Wing Dungeon (D2)";
+            treeNode79.Name = "node_ED3";
+            treeNode79.Text = "Moonlit Grotto (D3)";
+            treeNode80.Name = "node_ED4";
+            treeNode80.Text = "Skull Dungeon (D4)";
+            treeNode81.Name = "node_ED5";
+            treeNode81.Text = "Crown Dungeon (D5)";
+            treeNode82.Name = "node_ED6";
+            treeNode82.Text = "Mermaid\'s Cave (D6)";
+            treeNode83.Name = "Node0";
+            treeNode83.Text = "Dungeon Entrances";
+            treeNode84.Name = "node_D1";
+            treeNode84.Text = "Eternal Spirit (D1)";
+            treeNode85.Name = "node_D2";
+            treeNode85.Text = "Ancient Wood (D2)";
+            treeNode86.Name = "node_D3";
+            treeNode86.Text = "Echoing Howl (D3)";
+            treeNode87.Name = "node_D6";
+            treeNode87.Text = "Bereft Peak (D6)";
+            treeNode88.Name = "Node1";
+            treeNode88.Text = "Essences";
+            treeNode89.Name = "node_L1Sword";
+            treeNode89.Text = "L1 Sword";
+            treeNode90.Name = "node_D0T";
+            treeNode90.Text = "Seed Satchel";
+            treeNode91.Name = "node_D2T";
+            treeNode91.Text = "Feather";
+            treeNode92.Name = "node_D3T";
+            treeNode92.Text = "Seed Shooter";
+            treeNode93.Name = "node_D4T";
+            treeNode93.Text = "Switch Hook";
+            treeNode94.Name = "node_D5T";
+            treeNode94.Text = "Cane of Somaria";
+            treeNode95.Name = "node_FluteR";
+            treeNode95.Text = "Flute (Ricky)";
+            treeNode96.Name = "node_FluteD";
+            treeNode96.Text = "Flute (Dimitri)";
+            treeNode97.Name = "node_FluteM";
+            treeNode97.Text = "Flute (Moosh)";
+            treeNode98.Name = "node_Harp1";
+            treeNode98.Text = "Harp of Ages";
+            treeNode99.Name = "node_Harp2";
+            treeNode99.Text = "Tune of Currents";
+            treeNode100.Name = "Node2";
+            treeNode100.Text = "Items";
+            treeNode101.Name = "node_Rope";
+            treeNode101.Text = "Rope";
+            treeNode102.Name = "node_Chart";
+            treeNode102.Text = "Chart";
+            treeNode103.Name = "node_TN";
+            treeNode103.Text = "Tuni Nut";
+            treeNode104.Name = "node_LJ";
+            treeNode104.Text = "Lava Juice";
+            treeNode105.Name = "node_D6T";
+            treeNode105.Text = "Mermaid Suit";
+            treeNode106.Name = "node_D6BK";
+            treeNode106.Text = "D6 Boss Key";
+            treeNode107.Name = "Node3";
+            treeNode107.Text = "Key Items";
+            treeNode108.Name = "node_D2Skip";
+            treeNode108.Text = "D2 Skip";
+            treeNode109.Name = "node_CI";
+            treeNode109.Text = "Crescent Island (Shipwreck)";
+            treeNode110.Name = "node_Moblin";
+            treeNode110.Text = "Great Moblin";
+            treeNode111.Name = "node_Nayru";
+            treeNode111.Text = "Save Nayru";
+            treeNode112.Name = "node_EVeran";
+            treeNode112.Text = "Enter Veran Fight";
+            treeNode113.Name = "node_Veran";
+            treeNode113.Text = "Defeat Veran";
+            treeNode114.Name = "Node4";
+            treeNode114.Text = "Others";
             this.treeView1.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode7,
-            treeNode12,
-            treeNode24,
-            treeNode31,
-            treeNode38});
-            this.treeView1.Size = new System.Drawing.Size(449, 345);
+            treeNode83,
+            treeNode88,
+            treeNode100,
+            treeNode107,
+            treeNode114});
+            this.treeView1.Size = new System.Drawing.Size(458, 345);
             this.treeView1.TabIndex = 0;
             this.treeView1.AfterCheck += new System.Windows.Forms.TreeViewEventHandler(this.treeView1_AfterCheck);
+            // 
+            // lblVersion
+            // 
+            this.lblVersion.AutoSize = true;
+            this.lblVersion.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.lblVersion.Location = new System.Drawing.Point(440, 1);
+            this.lblVersion.Name = "lblVersion";
+            this.lblVersion.Size = new System.Drawing.Size(37, 13);
+            this.lblVersion.TabIndex = 21;
+            this.lblVersion.Text = "v0.0.0";
             // 
             // OoASettings
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblVersion);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox2);
             this.Name = "OoASettings";
             this.Padding = new System.Windows.Forms.Padding(7);
-            this.Size = new System.Drawing.Size(475, 501);
+            this.Size = new System.Drawing.Size(484, 513);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -282,5 +295,6 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.GroupBox groupBox1;
         private LiveSplit.OoA.NewTreeView treeView1;
+        private System.Windows.Forms.Label lblVersion;
     }
 }

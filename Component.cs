@@ -1,4 +1,5 @@
-﻿using LiveSplit.Model;
+﻿using LiveSplit.ComponentUtil;
+using LiveSplit.Model;
 using LiveSplit.UI;
 using LiveSplit.UI.Components;
 using System;
@@ -82,7 +83,7 @@ namespace LiveSplit.OoA
             {
                 try
                 {
-                    if (p.MainModule.ModuleMemorySize == 5656576 || p.MainModule.ModuleMemorySize == 1691648 || p.MainModule.ModuleMemorySize == 1699840)
+                    if (p.MainModuleWow64Safe().ModuleMemorySize == 5656576 || p.MainModuleWow64Safe().ModuleMemorySize == 1691648 || p.MainModuleWow64Safe().ModuleMemorySize == 1699840)
                     {
                         process = p;
                         break;
@@ -93,11 +94,11 @@ namespace LiveSplit.OoA
             
             if (process != null)
             {
-                if (process.MainModule.ModuleMemorySize == 1691648)
+                if (process.MainModuleWow64Safe().ModuleMemorySize == 1691648)
                     memory.emulator = Emulator.bgb151;
-                else if (process.MainModule.ModuleMemorySize == 1699840)
+                else if (process.MainModuleWow64Safe().ModuleMemorySize == 1699840)
                     memory.emulator = Emulator.bgb152;
-                else if (process.MainModule.ModuleMemorySize == 5656576)
+                else if (process.MainModuleWow64Safe().ModuleMemorySize == 5656576)
                     memory.emulator = Emulator.gambatte571;
                 
                 memory.setPointers();
@@ -114,19 +115,19 @@ namespace LiveSplit.OoA
             {
                 //memory.getVersion(game);
                 memory.setSplits(settings);
-            }
 
-            if (AllowFS)
-            {
-                if (settings.AutoSelectFile) //auto file select
+                if (AllowFS)
                 {
-                    SetForegroundWindow(game.MainWindowHandle);
-                    SendKeys.SendWait("{] 20}");
+                    if (settings.AutoSelectFile) //auto file select
+                    {
+                        SetForegroundWindow(game.MainWindowHandle);
+                        SendKeys.SendWait("{] 20}");
+                    }
                 }
-            }
-            else
-            {
-                AllowFS = true;
+                else
+                {
+                    AllowFS = true;
+                }
             }
         }
 

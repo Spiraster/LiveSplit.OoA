@@ -1,4 +1,14 @@
 <updates>
+  <update version="2.0.2">
+    <files>
+      <file path="Components/LiveSplit.OoA.dll" status="changed" />
+    </files>
+    <changelog>
+      <change>
+        Fixed issue with early splits (2.0.2)
+      </change>
+    </changelog>
+  </update>
   <update version="2.0.1">
     <files>
       <file path="Components/LiveSplit.OoA.dll" status="changed" />

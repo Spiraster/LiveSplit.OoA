@@ -75,6 +75,12 @@ namespace LiveSplit.OoA
         {
             data.UpdateAll(game);
 
+            //check for file select screen before splitting
+            byte _fs = Convert.ToByte(data["FileSelect1"].Current);
+            if (_fs == 0x23 || _fs == 0x17)
+                return false;
+
+            //check for splits
             foreach (var _split in splits)
             {
                 int count = 0;

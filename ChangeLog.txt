@@ -1,3 +1,11 @@
+2.0.2 (2016-10-28):
+- Fixed issues with early splits:
+  - Splits could trigger early on the file select screen if there was another save file with progress
+  - There was potential for early splits after saving on Gambatte (though not with any currently implemented splits)
+- Switched to MainModuleWow64Safe() in getGameProcess()
+- Fixed potential issue with auto file select in timer_onStart
+- Added version label to settings dialog
+
 2.0.1 (2016-09-07):
 - Fixed "Enter D6" split condition
 - Renamed "Veran Warp" split condition to "Enter Veran Fight"
