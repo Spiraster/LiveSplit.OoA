@@ -1,3 +1,5 @@
+***This component has been replaced by an ASL script found at: https://github.com/Spiraster/ASLScripts/tree/master/Oracles***
+
 # LiveSplit.OoA
 This is a LiveSplit autosplitter component for The Legend of Zelda: Oracle of Ages on emulator.
 
